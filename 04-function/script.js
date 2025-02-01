@@ -58,7 +58,7 @@ let methOne = function(){
 }
 methOne();
 
-// this method declare in =>
+// this method declare in => arrow function
 let meth1 = () => {
     console.log("welcome arrow")
 };
@@ -114,10 +114,8 @@ console.log(array.push("pasindu"));
 
 // cal(5,10);
 
+// call back function create array function 
 let adda = (a,b) =>  a+b;
 
-function cal(num1,num2){
-    let addition = adda(num1,num2);
-    console.log(addition);
-}
-cal(2,4)
+let cal = (num1,num2) => console.log(adda(num1,num2));
+cal(10,4)
