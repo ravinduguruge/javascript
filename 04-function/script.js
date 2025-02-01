@@ -90,4 +90,34 @@ console.log(myname.toLowerCase());
 let array = ["ravindu", "kavindu"];
 console.log(array.push("pasindu"));
 
+// callback function *********************************************************
 
+// function add(a, b){
+//     return a+b;
+// }
+// function mul(a,b){
+//    return a*b; 
+// }
+// function sub(a,b){
+//     return a-b; 
+//  }
+
+// function cal(num1, num2){
+//     let addition = add(num1,num2);
+//     let multipication = mul(num1, num2);
+//     let substraction = sub(num1, num2);
+
+//     console.log(`addition is : ${addition}`);
+//     console.log(`substraction is : ${substraction}`);
+//     console.log(`multipication is : ${multipication}`);
+// }
+
+// cal(5,10);
+
+let adda = (a,b) =>  a+b;
+
+function cal(num1,num2){
+    let addition = adda(num1,num2);
+    console.log(addition);
+}
+cal(2,4)
