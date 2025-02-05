@@ -35,3 +35,29 @@ console.log(obj2);
 
 // and this is reference data type 
 // that is change the one object value are should be change and another objects to equal it 
+// **********************************************************************
+
+
+// create the two array and first array equal to second array
+let names1 = ["Ravindu","kavindu","pasindu"];
+let names2 = names1;
+names1.push("tharindu");
+
+// then print both 2 array 
+console.log(names1);
+console.log(names2);
+
+// push value is assign the two arrays 
+// beacaus array is reference data type 
+
+// now create 2 arrays 
+//  then new value push it
+let numbers1 = [10,20,30];
+let numbers2 = [...numbers1,40,50,60];
+numbers1.push(100);
+
+// this equal not assign the both arrays and only this array 
+console.log( numbers1);
+console.log( numbers2);
+
+
