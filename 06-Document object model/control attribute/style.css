@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+
+a.abc{
+    color: tomato;
+}
+
+a.xyz{
+    color: darkgreen;
+}
+
+.abcNew{
+    color: black;
+    background-color: tomato;
+}
+
+.activeHighlight{
+    color: white;
+    background-color: darkgreen;
+}
