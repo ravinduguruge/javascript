@@ -8,5 +8,6 @@ company.style.border = "1px solid red";
 // then print it 
 console.log(company.style.padding);
 
-
+// css sheet : padding-top 
+// js : paddingTop 
 

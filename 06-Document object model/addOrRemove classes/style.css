@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+}
+
+a.abc{
+    font-size: 50px;
+}
+
+a.xyz{
+    color: darkgreen;
+}
+
+.xyzBckgrnd{
+    background-color: rgba(173, 221, 30, 0.735);
+    padding: 10px;
+}
+
+.abcNew{
+    color: black;
+    background-color: tomato;
+}
+
+.active{
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+}
+.inactive{
+    color: black;
+    border: 1px solid darkgreen;
+}
+
+.sub-heading{
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+}
