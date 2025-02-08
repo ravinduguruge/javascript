@@ -23,24 +23,3 @@ students.forEach(student => {
 
 
 
-
-// remove element 
-// before select the li tag 
-// but run this function
-// beacause last function is run this 
-// const students = document.querySelectorAll("li");
-// students.forEach(student => {
-//     student.addEventListener("click",(event) => {
-//         event.target.remove();
-//         console.log(event.target.textContent)
-//     });
-// });
-
-
-// addelement
-// const stuList = document.querySelector("ul");
-// const button = document.querySelector("button");
-// button.addEventListener("click", () => {
-//     stuList.innerHTML += "<li>New Student</li>";
-//     console.log(stuList.innerHTML);
-// });
