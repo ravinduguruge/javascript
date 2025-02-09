@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2D336B;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    
+     /* border: 1px solid red; */
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+.Registation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid rgb(255, 255, 0); */
+    width: 450px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#username{
+    padding: 20px;
+    /* background-color: #7886C7; */
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #FFF2F2;
+}
+
+#feedback{
+    padding: 20px;
+    /* background-color: #7886C7; */
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #FFF2F2;
+}
+
+#email{
+    padding: 20px;
+    /* background-color: #7886C7; */
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #FFF2F2;
+}
+
+#password{
+    padding: 20px;
+    /* background-color: #7886C7; */
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #FFF2F2;
+}
+
+#repassword{
+    padding: 20px;
+    /* background-color: #7886C7; */
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #FFF2F2;
+}
+#submit{
+    width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #FFF2F2;
+    color: #2D336B;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.showResultSubmit{
+    padding: 20px;
+    background-color: #0da350;
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.showResultError{
+    padding: 20px;
+    background-color: #a30d0d;
+    margin: 10px 0;
+    width: 350px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
