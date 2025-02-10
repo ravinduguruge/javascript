@@ -48,3 +48,22 @@ form.addEventListener("submit", (event) => {
     }
 });
 
+
+form.username.addEventListener("keyup", (event) => {
+    const userResult = usernameParttern.test(event.target.value);
+    if(userResult){
+        form.username.setAttribute = ("class", "matched");
+    }else{
+        form.username.setAttribute = ("class", "dismatched");
+    }
+    console.log(event.target.value)
+});
+
+form.email.addEventListener("keyup", (event) => {
+    const emailResult = emailParttern.test(event.target.value);
+    if(emailResult){
+        form.email.setAttribute = ("class", "matched");
+    }else{
+        form.email.setAttribute = ("class", "dismatched");
+    }
+});
