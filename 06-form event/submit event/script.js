@@ -52,9 +52,9 @@ form.addEventListener("submit", (event) => {
 form.username.addEventListener("keyup", (event) => {
     const userResult = usernameParttern.test(event.target.value);
     if(userResult){
-        form.username.setAttribute = ("class", "matched");
+        form.username.setAttribute("class", "matched");
     }else{
-        form.username.setAttribute = ("class", "dismatched");
+        form.username.setAttribute("class", "dismatched");
     }
     console.log(event.target.value)
 });
@@ -62,8 +62,27 @@ form.username.addEventListener("keyup", (event) => {
 form.email.addEventListener("keyup", (event) => {
     const emailResult = emailParttern.test(event.target.value);
     if(emailResult){
-        form.email.setAttribute = ("class", "matched");
+        form.email.setAttribute("class", "matched");
     }else{
-        form.email.setAttribute = ("class", "dismatched");
+        form.email.setAttribute("class", "dismatched");
+    }
+});
+
+form.password.addEventListener("keyup", (event) => {
+    const passwordResult = passwordPattern.test(event.target.value);
+    if(passwordResult){
+        form.password.setAttribute("class", "matched");
+    }else{
+        form.password.setAttribute("class", "dismatched");
+    }
+});
+
+form.repassword.addEventListener("keyup", (event) => {
+    const repassword = event.target.value;
+    const password = form.password.value;
+    if(repassword == password){
+        form.repassword.setAttribute("class", "matched");
+    }else{
+        form.repassword.setAttribute("class", "dismatched");
     }
 });
