@@ -11,5 +11,5 @@ let numbers = [15,23,4,57,95,18,58,1 ];
 numbers.sort((a, b) => {
     return a-b;
 });
-
+numbers.reverse();
 console.log(numbers)
