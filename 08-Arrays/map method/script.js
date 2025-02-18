@@ -1,3 +1,5 @@
+// adding one value to the elements in an array separately ****************
+
 // add assingment marks
 const networkMarks = [
     {name:"A", pprMark:23, assingmentMark:56},
