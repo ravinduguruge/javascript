@@ -71,7 +71,7 @@ const searchTasks = (word) => {
     Array.from(tasks.children)
     // filter the !search item 
     .filter(task => {
-        return !task.textContent.includes(word);
+        return !task.textContent.toLowerCase().includes(word);
     })
     // and add the hide class from the !search item 
     .forEach(task => {
@@ -81,7 +81,7 @@ const searchTasks = (word) => {
     // then return all  value 
     Array.from(tasks.children)
     .filter(task => {
-        return task.textContent.includes(word);
+        return task.textContent.toLowerCase().includes(word);
     })
     .forEach(task => {
         task.classList.remove("hide")
@@ -91,7 +91,7 @@ const searchTasks = (word) => {
 
 // search item keyup event 
 searchbox.addEventListener("keyup", event => {
-    const word = searchbox.task.value.trim();
+    const word = searchbox.task.value.trim().toLowerCase();
     searchTasks(word);
 });
 
