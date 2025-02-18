@@ -85,6 +85,10 @@ body{
 
 }
 
+.hide{
+    display: none !important;
+}
+
 .taskBox .tasks{
     margin: 10px 0;
 }
